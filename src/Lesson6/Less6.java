@@ -39,5 +39,5 @@ public class Less6 {
         String jsonResponse = client.newCall(requesthttp).execute().body().string();
         System.out.println(jsonResponse);
     }
-
+// файл библиотеки установлен, поему не тянутся библиотеки на OkHttpClient не могу понять. какую библиотеку необходимо установить?//
 }
